@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial scale=1.0">
+    <title>Registration-page</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="http://localhost:3000/socket.io/socket.io.js"></script>
+    <script src="https://kit.fontawesome.com/d9514243ac.js" crossorigin="anonymous"></script> <!--icon -->
+  </head>
+  <body>
+    <!-- <h1>Hello aLL</h1> -->
+    <form action="/" method="post" id="form-data">
+      <h1 id="title">Get Started</h1>
+      <p>Register here to book your slot!</p>
+      <div id="Name">
+        <label for="">Name</label>
+        <i class="fa-solid fa-user" id="class"></i>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div>
+        <label for="">Email</label>
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div id="Phone">
+        <label for="" id="lbl2">Phone-no</label>
+        <i class="fa-solid fa-phone" id="class1"></i>
+        <input type="number" id="num" name="num" required="1-9" >
+      </div>
+      <button type="submit" id="btn">
+        Register Now
+      </button>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    background-image: url("https://img.freepik.com/free-vector/hand-drawn-linear-engraved-floral-background_52683-71224.jpg?t=st=1703299878~exp=1703300478~hmac=6d39f88e0662cad0268ed4ad753d3ccd3a755b5d5d6eea43b4706f0fa60dd495.webp");
+    
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */ 
+}
+h1{
+    font-size: 38px;
+}
+form p{
+    margin-bottom: 35px;
+    margin-top: 6px;
+    font-size: small;
+}
+
+#form-data{
+    width:30%;
+    margin-left: 35%;
+    margin-top:8rem;
+    background-color: transparent;
+    border: 2px solid #F9F295;  
+    /* #F9F295  #F7EF8A */
+    border-radius: 20px;
+    backdrop-filter: blur(55px);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center ;
+    padding: 25px;
+    color: #fff;
+}
+form div{
+    display: flex;
+    flex-flow: row wrap;
+    margin:13px 0;
+    border-bottom: 2px solid #fff;
+    width: 80%;
+}
+
+form input{
+    width: 100%;
+    height: 2rem;
+    border: 0;
+    border-radius: 2px;
+    background: transparent;
+    padding-left: 20px;
+    margin-top: 5px;
+    outline: none;
+    color: aliceblue;
+    font-size: medium;
+
+}
+
+i{
+    position: absolute;
+    right: 70px;
+    margin-top: 3px;
+    color: whitesmoke;
+} 
+button{
+    width: 50%;
+    height: 30px;
+    margin-top: 30px;
+    margin-bottom: 18px;
+    color: #053935;
+    font-size: 15px;
+    font-weight:bold;
+    background-color: rgb(255, 255, 255,5);
+    border: none;
+    border-radius: 50px;
+    cursor:pointer;
+    outline-color: black;
+    padding: 5px;
+}
+p{
+    color: #fff;
+    margin: 5px;
+
+}
+p a{
+    color: #fff;
+}
+#sign{
+    color: #fff;
+}
+#Name, #Phone, #Pass{
+    max-height: 4rem;
+    border-bottom: 2px solid #fff;
+}
+
+
+/* @media only screen and (min-width: 600px) {...} */
+
+@media only screen and (max-width: 769px) {
+        #form-data{
+            width:80%;
+            margin-left: 10%;
+            background-color: transparent;
+            margin-top: 10rem;
+            border: 2px solid #F9F295;  
+            /* #F9F295  #F7EF8A */
+            border-radius: 20px;
+            backdrop-filter: blur(55px);
+            display: flex;
+            flex-flow: column wrap;
+            justify-content: center;
+            align-items: center ;
+            padding: 25px;
+            color: #fff;
+        }
+    
+}
+
